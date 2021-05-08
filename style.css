@@ -1,0 +1,6 @@
+body { overflow: hidden; background: url('../Fancybox/img/bckg.jpg') center/cover no-repeat; }
+div { display: flex; }
+div img { width: 300px; border: 2px dashed grey; }
+div p { padding: 5px; text-align: justify; color: white; }
+.large_pic { height: 100%; width: 100%; position: absolute; left: 0; top: 0; }
+.large_pic > img { height: 75%; width: 75%; margin: 4% 10%; border: 5px ridge olive; position: fixed; }
